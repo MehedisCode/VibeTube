@@ -1,0 +1,14 @@
+{
+  "name": "vibetube",
+  "version": "1.0.0",
+  "description": "A video watching platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "author": "Md Mehedi Hasan",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.1"
+  }
+}
