@@ -4,11 +4,16 @@
   "description": "A video watching platform",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index"
+    "start": "nodemon -r dotenv/config src/index"
   },
   "author": "Md Mehedi Hasan",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4"
   }
 }
