@@ -14,3 +14,11 @@ app.use(
   })
 );
 app.use(cookieParser());
+
+// Routes Import
+const userRouter = require("./routes/user.routes.js");
+
+// Routes declaration
+app.use("/api/v1/users", userRouter);
+
+module.exports = { app };
